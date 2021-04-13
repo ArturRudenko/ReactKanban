@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
 
-export default (state = [], action) => {
+export default function tasks (state = [], action) {
   switch (action.type) {
     case 'SET_TASKS':
       return [

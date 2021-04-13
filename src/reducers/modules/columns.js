@@ -1,4 +1,4 @@
-export default (state = [], action) => {
+export default function columns (state = [], action) {
   switch (action.type) {
     case 'SET_COLUMNS':
       return [

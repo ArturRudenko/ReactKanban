@@ -24,6 +24,7 @@ export default function Kanban () {
             <KanbanItem
               key={task.id}
               title={task.title}
+              date={`${task.date.getDate()}.${task.date.getMonth()}.${task.date.getFullYear()}`}
               tags={task.tags}
             />
           )}

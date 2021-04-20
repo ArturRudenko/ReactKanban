@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="" />
+    <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanCol/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanCol/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/baseData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/baseData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Kanban/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Kanban/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +26,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../red-7.ru" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/KanbanCol" />
+      <recent name="$PROJECT_DIR$/src/views/Kanban" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -52,6 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617692119663</updated>
       <workItem from="1617692121090" duration="1422000" />
+      <workItem from="1618248594142" duration="9741000" />
+      <workItem from="1618899060442" duration="3255000" />
     </task>
     <servers />
   </component>
@@ -68,5 +84,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

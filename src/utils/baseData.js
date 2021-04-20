@@ -19,7 +19,7 @@ export const tags = [
   {
     id: uuidv4(),
     title: 'Job',
-    color: '#463BF7',
+    color: '#5CB3FF',
     description: 'Suscipit nsuscipit recusandae consequuntur expedita et cumquia et suscipit nsuscipit recusandae consequuntur expedita et cum quia et suscipit consequuntur expedita et cum',
   },
   {
@@ -43,7 +43,7 @@ export const tags = [
   {
     id: uuidv4(),
     title: 'Hobbie',
-    color: '#FA3737',
+    color: '#DAA520',
     description: 'Suscipit nsuscipit recusandae consequuntur expedita et cumquia et suscipit nsuscipit recusandae consequuntur expedita et cum quia et suscipit consequuntur expedita et cum',
   },
 ];

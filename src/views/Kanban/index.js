@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
 import KanbanCol from '../../components/KanbanCol';
+import KanbanItem from '../../components/KanbanItem';
 
 export default function Kanban () {
   const columns = useSelector(state => state.columns)
@@ -20,7 +21,11 @@ export default function Kanban () {
           itemsAmount={getTasksByStatus(column.alias).length}
         >
           {getTasksByStatus(column.alias).map((task) =>
-            <div key={task.id}>{task.title}</div>
+            <KanbanItem
+              key={task.id}
+              title={task.title}
+              tags={task.tags}
+            />
           )}
         </KanbanCol>
       )}

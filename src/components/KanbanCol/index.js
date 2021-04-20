@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from './styles.module.scss'
 
-export default function KanbanCol (props) {
+export default function KanbanCol ({title, itemsAmount, children}) {
   return (
     <div className={styles.wrapper}>
       <div>
-        <h2 className={styles.title}>{props.title}</h2>
-        { !props.itemsAmount && <p>No tasks in such satus</p> }
+        <h2 className={styles.title}>{title}</h2>
+        { !itemsAmount && <p>No tasks in such satus</p> }
       </div>
       <div>
-        { props.children }
+        { children }
       </div>
     </div>
   )

@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UI/UiBtn/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/UiTaskForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/UiTaskForm/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/UiTextField/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/UiTextField/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tag/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tags/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanCol/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanCol/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/KanbanCol/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanCol/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/baseData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/baseData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Kanban/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Kanban/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/UiBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTaskForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTextField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiBtn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tag/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +44,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../red-7.ru" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../very-botsad.ru" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/KanbanCol" />
-      <recent name="$PROJECT_DIR$/src/views/Kanban" />
+      <recent name="$PROJECT_DIR$/src/views/Tags" />
+      <recent name="$PROJECT_DIR$/src/views/Tag" />
+      <recent name="$PROJECT_DIR$/src/components/Header" />
+      <recent name="$PROJECT_DIR$/src/components/Modal" />
+      <recent name="$PROJECT_DIR$/src/components/UI/UiTextField" />
     </key>
   </component>
   <component name="RunManager">
@@ -68,6 +89,9 @@
       <workItem from="1617692121090" duration="1422000" />
       <workItem from="1618248594142" duration="9741000" />
       <workItem from="1618899060442" duration="3255000" />
+      <workItem from="1618930454853" duration="101000" />
+      <workItem from="1618984413138" duration="8444000" />
+      <workItem from="1619072634208" duration="3048000" />
     </task>
     <servers />
   </component>

@@ -7,10 +7,10 @@ import {
   Route
 } from 'react-router-dom';
 import { columns, tasks, tags } from './utils/baseData';
-import Header from './components/Header';
+import Header from './components/Header/';
 import Kanban from './views/Kanban/';
-import Tags from './views/Tags';
-import Tag from './views/Tag';
+import Tags from './views/Tags/';
+import Tag from './views/Tag/';
 
 export default function App () {
   const dispatch = useDispatch()

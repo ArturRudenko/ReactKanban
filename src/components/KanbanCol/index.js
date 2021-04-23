@@ -6,7 +6,8 @@ export default function KanbanCol ({title, itemsAmount, children}) {
     <div className={styles.wrapper}>
       <div>
         <h2 className={styles.title}>{title}</h2>
-        { !itemsAmount && <p>No tasks in such satus</p> }
+        { !itemsAmount && <p>No tasks with this satus</p> }
+        <button className={styles.button}>Add new</button>
       </div>
       <div>
         { children }

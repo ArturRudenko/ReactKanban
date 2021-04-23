@@ -7,3 +7,12 @@
   font-size: 2rem;
   font-weight: 600;
 }
+
+.button {
+  margin-bottom: 15px;
+  color: #3CAF41;
+  transition: color .3s;
+  &:hover {
+    color: #848482;
+  }
+}

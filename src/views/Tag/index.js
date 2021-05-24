@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Tag () {
+export default function Tag ({ match }) {
   return (
     <div>
-        Tag
+        Tag {match.params.id}
     </div>
   )
 };

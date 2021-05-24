@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.scss'
 import menuIcon from '../../assets/images/menu.svg'
 
-export default function KanbanItem ({ task, onUpdate }) {
+export default function KanbanItem ({ task, onUpdate, onRemove }) {
   const [showMenu, setShowMenu] = useState(false)
 
   const updateTask = () => {
@@ -30,7 +30,10 @@ export default function KanbanItem ({ task, onUpdate }) {
             className={styles.cardMenuOption}
             onClick={() => updateTask()}
           >Update</button>
-          <button className={styles.cardMenuOption}>Remove</button>
+          <button
+            className={styles.cardMenuOption}
+            onClick={() => onRemove(task.id)}
+          >Remove</button>
         </div>
       }
       <ul className={styles.tagList}>

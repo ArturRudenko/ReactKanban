@@ -1,5 +1,6 @@
-import React, { Fragment, useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import React, { Fragment, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeTask } from '../../actions';
 import styles from './styles.module.scss';
 import KanbanCol from '../../components/KanbanCol';
 import KanbanItem from '../../components/KanbanItem';
@@ -12,6 +13,7 @@ export default function Kanban () {
   const tags = useSelector(state => state.tags)
   const [showModal, setShowModal] = useState(false)
   const [targetTask, setTargetTask] = useState({})
+  const dispatch = useDispatch()
 
   const getTasksByStatus = (alias) => {
     return tasks.filter(task => task.status === alias)
@@ -52,6 +54,7 @@ export default function Kanban () {
                 key={task.id}
                 task={task}
                 onUpdate={openModal}
+                onRemove={(id) => dispatch(removeTask(id))}
               />
             )}
           </KanbanCol>

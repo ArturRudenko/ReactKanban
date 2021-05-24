@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/double-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/UiMultiTagSelect/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/UiMultiTagSelect/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/UiSelect/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/UiSelect/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/KanbanCol/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanCol/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiBtn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiBtn/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiBtn/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiBtn/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTaskForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiTaskForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTaskForm/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiTaskForm/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTextField/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiTextField/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/UiTextField/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiTextField/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Kanban/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Kanban/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +83,7 @@
       <workItem from="1619072634208" duration="3048000" />
       <workItem from="1621452700703" duration="618000" />
       <workItem from="1621453827666" duration="2058000" />
-      <workItem from="1621551416030" duration="57203000" />
+      <workItem from="1621551416030" duration="58452000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux'
 import { setColumns, setTasks, setTags } from './actions';
 import {
@@ -22,15 +22,13 @@ export default function App () {
   }, [dispatch]);
 
   return (
-    <Fragment>
+    <Router>
       <Header />
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Kanban} />
-          <Route exact path='/tags' component={Tags} />
-          <Route path='/tags/:id' component={Tag} />
-        </Switch>
-      </Router>
-  </Fragment>
+      <Switch>
+        <Route exact path='/' component={Kanban} />
+        <Route exact path='/tags' component={Tags} />
+        <Route path='/tags/:id' component={Tag} />
+      </Switch>
+    </Router>
   )
 }

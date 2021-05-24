@@ -1,0 +1,54 @@
+.select {
+  position: relative;
+  &Tags {
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 180px;
+    overflow-y: auto;
+    border: 1px solid rgba(132, 132, 130, .5);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, .2);
+  }
+}
+.selectTag,
+.selectedTag {
+  padding: 7px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(132, 132, 130, .1);
+  }
+}
+.selectedTag {
+  background: rgba(132, 132, 130, .1);
+}
+.output {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px 30px 7px 7px;
+  min-height: 41px;
+  background: #fff;
+  border: 1px solid rgba(132, 132, 130, .5);
+  cursor: pointer;
+  &::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../assets/images/double-arrow.svg');
+    background-size: 100%;
+  }
+  &Tag {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: .9rem;
+  }
+}

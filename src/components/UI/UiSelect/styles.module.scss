@@ -1,5 +1,5 @@
-.textField,
-.textArea {
+.select,
+.selectOption {
   width: 100%;
   outline: none;
   border: none;
@@ -8,11 +8,4 @@
   font-weight: 600;
   color: #000;
   border-bottom: 2px solid #000;
-  &::placeholder {
-    color: #000;
-  }
-}
-
-.textArea {
-  resize: none;
 }

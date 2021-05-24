@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Kanban/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Kanban/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/UiMultiTagSelect/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UiMultiTagSelect/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tags/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tags/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1619072634208" duration="3048000" />
       <workItem from="1621452700703" duration="618000" />
       <workItem from="1621453827666" duration="2058000" />
-      <workItem from="1621551416030" duration="62188000" />
+      <workItem from="1621551416030" duration="65954000" />
     </task>
     <servers />
   </component>

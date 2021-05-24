@@ -1,0 +1,18 @@
+.tagsWrapper {
+  padding: 2rem 6rem 0 6rem;
+}
+
+.tagList {
+  max-width: 450px;
+}
+
+.tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  &Title {
+    margin-right: auto;
+    font-size: 1.3rem;
+  }
+}

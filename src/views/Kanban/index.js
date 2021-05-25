@@ -6,6 +6,7 @@ import KanbanCol from '../../components/KanbanCol';
 import KanbanItem from '../../components/KanbanItem';
 import Modal from '../../components/Modal';
 import UiTaskForm from '../../components/UI/UiTaskForm';
+import UiMultiTagSelect from '../../components/UI/UiMultiTagSelect';
 
 export default function Kanban () {
   const columns = useSelector(state => state.columns)
@@ -13,10 +14,22 @@ export default function Kanban () {
   const tags = useSelector(state => state.tags)
   const [showModal, setShowModal] = useState(false)
   const [targetTask, setTargetTask] = useState({})
+  const [targetTags, setTargetTags] = useState([])
   const dispatch = useDispatch()
 
+  const getFilteredTasks = () => {
+    if (targetTags.length < 1) return tasks
+
+    return tasks.filter(task => {
+      for(let tag of targetTags) {
+        if(!task.tags.find(curTag => curTag.id === tag.id)) return false
+      }
+      return true
+    })
+  }
+
   const getTasksByStatus = (alias) => {
-    return tasks.filter(task => task.status === alias)
+    return getFilteredTasks().filter(task => task.status === alias)
   }
 
   const openModal = (task) => {
@@ -40,6 +53,13 @@ export default function Kanban () {
           />
         }
       </Modal>
+      <div className={styles.selectWrapper}>
+        <UiMultiTagSelect
+          defaultSelectedTags={targetTags}
+          allTags={tags}
+          onSelect={(tags) => setTargetTags(tags)}
+        />
+      </div>
       <div className={styles.desk}>
         {columns.map((column, index) =>
           <KanbanCol

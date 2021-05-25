@@ -11,7 +11,11 @@ export default function KanbanItem ({ task, onUpdate, onRemove }) {
   }
 
   return (
-    <div className={styles.card}>
+    <div
+      data-id={task.id}
+      draggable={true}
+      className={styles.card}
+    >
       <button
         className={styles.cardMenuBtn}
         onClick={() => setShowMenu(!showMenu)}

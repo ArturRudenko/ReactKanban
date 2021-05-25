@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ca64e4f-f46d-4b81-ac78-d728c77edff4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Kanban/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Kanban/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanCol/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanCol/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KanbanItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KanbanItem/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <workItem from="1619072634208" duration="3048000" />
       <workItem from="1621452700703" duration="618000" />
       <workItem from="1621453827666" duration="2058000" />
-      <workItem from="1621551416030" duration="86647000" />
+      <workItem from="1621551416030" duration="88990000" />
     </task>
     <servers />
   </component>

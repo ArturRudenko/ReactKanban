@@ -43,25 +43,31 @@ export default function Tag ({ match }) {
         className={styles.tagForm}
         onSubmit={onSubmit}
       >
-        <UiTextField
-          defaultValue={tagTitle}
-          onValueChange={(value) => setTagTitle(value)}
-        />
-        <UiTextField
-          defaultValue={tagDescription}
-          textarea={true}
-          areaHeight={'100px'}
-          placeholder={'Description'}
-          onValueChange={(value) => setTagDescription(value)}
-        />
-        <div className={styles.colorPicker}>
-          <span className={styles.colorPickerTitle}>Pick a color: </span>
-          <input
-            type="color"
-            value={tagColor}
-            className={styles.colorPickerInput}
-            onChange={({ target: { value } }) => setTagColor(value)}
+        <div className={styles.formFieldWrapper}>
+          <UiTextField
+            defaultValue={tagTitle}
+            onValueChange={(value) => setTagTitle(value)}
           />
+        </div>
+        <div className={styles.formFieldWrapper}>
+          <UiTextField
+            defaultValue={tagDescription}
+            textarea={true}
+            areaHeight={'100px'}
+            placeholder={'Description'}
+            onValueChange={(value) => setTagDescription(value)}
+          />
+        </div>
+        <div className={styles.formFieldWrapper}>
+          <div className={styles.colorPicker}>
+            <span className={styles.colorPickerTitle}>Pick a color: </span>
+            <input
+              type="color"
+              value={tagColor}
+              className={styles.colorPickerInput}
+              onChange={({ target: { value } }) => setTagColor(value)}
+            />
+          </div>
         </div>
         <div>
           <UiBtn>Confirm</UiBtn>

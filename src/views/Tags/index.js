@@ -1,8 +1,9 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { removeTag, addTag } from '../../actions';
 import styles from './styles.module.scss'
 import UiBtn from '../../components/UI/UiBtn';
-import { removeTag } from '../../actions';
+import UiTextField from '../../components/UI/UiTextField';
 
 export default function Tags () {
   const tags = useSelector(state => state.tags)
@@ -10,6 +11,13 @@ export default function Tags () {
 
   return (
     <div className={styles.tagsWrapper}>
+      <div className={styles.inputWrapper}>
+        <UiTextField
+          defaultValue={'New tag'}
+          onEnter={(value) => dispatch(addTag(value))}
+        />
+        <span className={styles.tooltip}>*press enter</span>
+      </div>
       <ul className={styles.tagList}>
         {
           tags.map((tag) =>

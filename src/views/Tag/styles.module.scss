@@ -5,13 +5,14 @@
 }
 
 .tagForm {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 30vw;
   min-height: 35vh;
   padding: 20px;
   border: 2px solid #000;
+}
+
+.formFieldWrapper {
+  margin-bottom: 1.2rem;
 }
 
 .colorPicker {

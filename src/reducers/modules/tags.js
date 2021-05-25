@@ -11,7 +11,7 @@ export default function tags (state = [], action) {
         id: uuidv4(),
         title: action.payload,
         color: '#FFFFFF',
-        description: 'new tag'
+        description: ''
       }]
     case 'REMOVE_TAG':
       return [

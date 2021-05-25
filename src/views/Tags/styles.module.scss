@@ -2,6 +2,23 @@
   padding: 2rem 6rem 0 6rem;
 }
 
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+.tooltip {
+  margin-right: auto;
+  color: rgba(132, 132, 130, .4);
+  font-size: .9rem;
+  margin-left: 15px;
+  user-select: none;
+  cursor: initial;
+}
+
 .tagList {
   max-width: 450px;
 }

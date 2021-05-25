@@ -1,0 +1,32 @@
+.tagPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30vw;
+  min-height: 35vh;
+  padding: 20px;
+  border: 2px solid #000;
+}
+
+.colorPicker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 40%;
+  &Title {
+    font-size: 1.1rem;
+  }
+  &Input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+  }
+}

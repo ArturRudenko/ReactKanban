@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-export default function UiTextField ({ defaultValue, textarea, placeholder, onValueChange }) {
+export default function UiTextField ({ defaultValue, textarea, areaHeight = '75px', placeholder, onValueChange }) {
   return (
     <div>
       { textarea
@@ -9,6 +9,7 @@ export default function UiTextField ({ defaultValue, textarea, placeholder, onVa
             value={defaultValue}
             placeholder={placeholder}
             className={styles.textArea}
+            style={{height: areaHeight}}
             onChange={({ target: { value } }) => onValueChange(value)}
           />
         : <input

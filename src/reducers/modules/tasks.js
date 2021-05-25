@@ -19,6 +19,21 @@ export default function tasks (state = [], action) {
       return [
         ...state.filter(item => item.id !== action.payload)
       ]
+    case 'REMOVE_TAG':
+      return [
+        ...state.map(item => {
+          if (item.tags.length < 1) return item
+          const updatedTags = item.tags.filter(tag => tag.id !== action.payload)
+          return {
+            id: item.id,
+            status: item.status,
+            date: item.date,
+            tags: updatedTags,
+            title: item.title,
+            text: item.text
+          }
+        })
+      ]
     case 'UPDATE_TASK_STATUS':
       return [
         ...state.map(item => {
@@ -44,6 +59,24 @@ export default function tasks (state = [], action) {
             tags: action.payload.tags,
             title: action.payload.title,
             text: action.payload.text
+          }
+        })
+      ]
+    case 'UPDATE_TAG_CONTENT':
+      return [
+        ...state.map(item => {
+          if (item.tags.length < 1) return item
+          const updatedTags = item.tags.map(tag => {
+            if (tag.id !== action.payload.id) return tag
+            return action.payload
+          })
+          return {
+            id: item.id,
+            status: item.status,
+            date: item.date,
+            tags: updatedTags,
+            title: item.title,
+            text: item.text
           }
         })
       ]
